@@ -8,6 +8,7 @@ require('./config/db.config');
 //creamos la app con estres
 const app = express();
 
+app.use(express.json())
 app.use(logger('dev'));
 
 const  routes = require('./config/routes.config');

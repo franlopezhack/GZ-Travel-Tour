@@ -28,4 +28,4 @@ const placesSchema = new Schema({
 })
 
 const Places = mongoose.model('Places', placesSchema);
-module.export = Places;
+module.exports = Places;

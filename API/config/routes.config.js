@@ -1,11 +1,11 @@
 const createError = require('http-errors')
 const express = require('express');
 const router = express.Router();
-const places = require('../controllers/places.controller.js')
+const places = require('../controllers/places.controller')
 
 
-router.get("/places", places.list);
-router.post("/places", places.create);
+router.get('/places', places.list);
+router.post('/places', places.create);
 
 
 
