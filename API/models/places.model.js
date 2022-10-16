@@ -23,8 +23,25 @@ const placesSchema = new Schema({
         required: 'keyWords is required',
         default: []
     },
+
+    lat:{
+        type: Number,
+        required: true,
+    },
+    lng:{
+        type: Number,
+        required: true
+    }
 }, {
-    timestamps: true
+    timestamps: true,
+    toJSON:{
+        transform: ( doc, places) => {
+            places.id = doc._id;
+            delete places._id;
+            delete places.__v;
+            return places
+        }
+    }
 })
 
 const Places = mongoose.model('Places', placesSchema);
