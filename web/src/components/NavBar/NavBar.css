@@ -1,0 +1,14 @@
+.nav-bar{
+    backdrop-filter: blur(0.6rem);
+    background: #09b0ea;
+    border: 1px solid rgba(229, 14, 14, 0.064);
+    border-radius: 2.5rem;
+    bottom: 1rem;
+    box-shadow: 5px 5px 6px rgb(196, 191, 191);
+    left: 50%;
+    height: 80px;
+    position: fixed;
+    transform: translateX(-50%);
+    width: 52rem;
+    z-index: 10;
+}
