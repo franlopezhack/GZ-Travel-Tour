@@ -24,18 +24,35 @@ const placesSchema = new Schema({
         default: []
     },
 
-    lat:{
-        type: Number,
-        required: true,
+    province:{
+        type: String,
+        required: 'Province is required'
     },
-    lng:{
-        type: Number,
-        required: true
-    }
+
+    province:{
+        type: String,
+        required: 'Region is required'
+    },
+
+    townHall:{
+        type: String,
+        required: 'TownHall is required'
+    },
+
+    coord: {
+        lat: {
+            type: Number,
+            required: true,
+        },
+        lng: {
+            type: Number,
+            required: true
+        }
+    },
 }, {
     timestamps: true,
-    toJSON:{
-        transform: ( doc, places) => {
+    toJSON: {
+        transform: (doc, places) => {
             places.id = doc._id;
             delete places._id;
             delete places.__v;

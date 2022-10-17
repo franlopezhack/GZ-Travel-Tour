@@ -1,0 +1,13 @@
+.mapadiv path{
+    fill:#fcfdfe;
+    stroke: green;
+    stroke-width: 2px;
+}
+
+.mapadiv :hover{
+    fill: blue;
+}
+
+.mapadiv a{
+    cursor: pointer;
+}
