@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Maps() {
 	return (
 		<>
-			<div className="mapadiv">
+			<div className="mapa-P">
 				<svg viewBox="0 0 777.74173 413.26299"
 					version="1.1" xmlns="http://www.w3.org/2000/svg">
 					<g id="prov00p36">

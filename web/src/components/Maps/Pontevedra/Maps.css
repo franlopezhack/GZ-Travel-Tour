@@ -1,13 +1,13 @@
-.mapadiv path{
+.mapa-P path{
     fill:#fcfdfe;
     stroke: green;
     stroke-width: 2px;
 }
 
-.mapadiv :hover{
+.mapa-P :hover{
     fill: blue;
 }
 
-.mapadiv a{
+.mapa-P a{
     cursor:alias;
 }
