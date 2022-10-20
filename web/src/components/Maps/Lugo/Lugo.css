@@ -1,0 +1,18 @@
+.mapa-L svg{
+    height: 400px;
+    width: 400px;
+}
+
+.mapa-L path{
+    fill:#fcfdfe;
+    stroke: green;
+    stroke-width: 2px;
+}
+
+.mapa-L :hover{
+    fill: blue;
+}
+
+.mapa-L a{
+    cursor:alias;
+}

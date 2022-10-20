@@ -1,0 +1,18 @@
+.mapa-O svg{
+    height: 600px;
+    width: 600px;
+}
+
+.mapa-O path{
+    fill:#fcfdfe;
+    stroke: green;
+    stroke-width: 2px;
+}
+
+.mapa-O :hover{
+    fill: blue;
+}
+
+.mapa-O a{
+    cursor:alias;
+}

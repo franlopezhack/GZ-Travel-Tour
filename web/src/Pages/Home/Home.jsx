@@ -1,6 +1,9 @@
 import React from 'react'
-import Coruña from '../../components/Maps/Coruña/Coruña'
-import Maps from '../../components/Maps/Pontevedra/Maps'
+import Lugo from '../../components/Maps/Lugo/Lugo'
+import Ourense from '../../components/Maps/Ourense/Ourense'
+// import Coruña from '../../components/Maps/Coruña/Coruña'
+// import Maps from '../../components/Maps/Pontevedra/Maps'
+
 import NavBar from '../../components/NavBar/NavBar'
 
 function Home() {
@@ -9,8 +12,9 @@ function Home() {
             <div>Home</div>
             <NavBar/>
             {/* <Maps/> */}
-          <Coruña/>
-            
+          {/* <Coruña/> */}
+            <Ourense/>
+            <Lugo/>
         </>
     )
 }
