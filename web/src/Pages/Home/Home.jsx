@@ -1,22 +1,17 @@
 import React from 'react'
-import Lugo from '../../components/Maps/Lugo/Lugo'
 import Ourense from '../../components/Maps/Ourense/Ourense'
-// import Coruña from '../../components/Maps/Coruña/Coruña'
-// import Maps from '../../components/Maps/Pontevedra/Maps'
+
 
 import NavBar from '../../components/NavBar/NavBar'
 
-function Home() {
+function HomePage() {
     return (
         <>
             <div>Home</div>
-            <NavBar/>
-            {/* <Maps/> */}
-          {/* <Coruña/> */}
-            <Ourense/>
-            <Lugo/>
+            <NavBar />
+            <Ourense />
         </>
     )
 }
 
-export default Home
+export default HomePage
