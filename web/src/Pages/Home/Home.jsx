@@ -1,5 +1,5 @@
 import React from 'react'
-import Ourense from '../../components/Maps/Ourense/Ourense'
+import Pontevedra from '../../components/Maps/Pontevedra/Pontevedra'
 
 
 import NavBar from '../../components/NavBar/NavBar'
@@ -9,7 +9,7 @@ function HomePage() {
         <>
             <div>Home</div>
             <NavBar />
-            <Ourense />
+            <Pontevedra/>
         </>
     )
 }
