@@ -5,22 +5,17 @@
 
 .mapa-O path{
     fill:#fcfdfe;
-    stroke: green;
-    stroke-width: 2px;
+    stroke: rgba(128, 128, 128, 0.633);
+    /* box-shadow: 5px 5px 5px 10px; */
+    stroke-width:1.5px;
 }
 
 .mapa-O :hover{
-    fill: blue;
+    fill:  rgba(128, 128, 128, 0.633);
     transition: all 1s ease
 }
 
 .mapa-O a{
-    box-shadow: 5px 5px 5px 10px;
     cursor:pointer;
 }
 
-
-.Ourense:hover{
-    fill: rgb(143, 143, 50);
-
-}
