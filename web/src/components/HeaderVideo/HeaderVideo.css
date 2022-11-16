@@ -1,0 +1,12 @@
+.react-player{
+    top: 0;
+    left: 0;
+}
+
+.video{
+    margin-top: 50px;
+}
+
+.video video{
+    object-fit: cover ;
+}

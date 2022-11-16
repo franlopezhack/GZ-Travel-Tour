@@ -13,7 +13,7 @@ router.use((req, res, next) => next(createError(404, 'Route not found')));
 
 
 router.use((error, req, res, next) => {
-    const data= {
+    const data = {
         message: error.message
     };
     res.status(error.status).json(data)

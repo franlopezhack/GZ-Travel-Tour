@@ -1,5 +1,5 @@
 import React from 'react'
-import Pontevedra from '../../components/Maps/Pontevedra/Pontevedra'
+import HeaderVideo from '../../components/HeaderVideo/HeaderVideo'
 
 
 import NavBar from '../../components/NavBar/NavBar'
@@ -7,9 +7,8 @@ import NavBar from '../../components/NavBar/NavBar'
 function HomePage() {
     return (
         <>
-            <div>Home</div>
             <NavBar />
-            <Pontevedra/>
+            <HeaderVideo/>
         </>
     )
 }
